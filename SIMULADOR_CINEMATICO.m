@@ -1009,6 +1009,7 @@ T = Robot.fkine([0 0 0 0]);
 handles.edit9.String = num2str(floor(T(1,4)));
 handles.edit10.String = num2str(floor(T(2,4)));
 handles.edit11.String = num2str(floor(T(3,4)));
+
 set(handles.axes2, 'Visible', 'on');
 nombre_imagen = 'bola2.jpg';
 imagen = imread(nombre_imagen);
